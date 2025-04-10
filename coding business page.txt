@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indian Palace</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #8B0000;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #e0b64c;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .menu-qr {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    footer {
+      background-color: #8B0000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    img.qr {
+      width: 150px;
+      height: auto;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Indian Palace</h1>
+    <p>Experience Authentic Indian & Nepali Cuisine</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Indian Palace – a cozy and elegant dining experience bringing you the flavors of India and Nepal. We pride ourselves on authentic recipes, fresh ingredients, and a peaceful atmosphere that feels like home.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <p>You can scan the QR code below to view our digital menu, or <a href="#">click here</a> to open it directly.</p>
+    <div class="menu-qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/menu.pdf" alt="QR Code to Menu" class="qr" />
+      <p><small>Scan me to view the menu</small></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Visit Us</h2>
+    <p><strong>Address:</strong> 123 Main Street, Rochester, NY</p>
+    <p><strong>Hours:</strong> Mon–Sun: 11am – 10pm</p>
+    <p><strong>Phone:</strong> (123) 456-7890</p>
+    <p><strong>Email:</strong> contact@indianpalace.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Indian Palace. All rights reserved.</p>
+  </footer>
+</body>
+</html>
